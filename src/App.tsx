@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import HeroSection from './components/HeroSection';
+import Navigation from './components/Navigation';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="text-4xl">Hello World!</div>
+      <Navigation />
+      <HeroSection />
     </>
   );
 }
