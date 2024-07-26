@@ -29,12 +29,12 @@ function HeroSection() {
           <p> Also available on:</p>
           <figure className="flex gap-2">
             <img
-              src="../../public/images/amazon-logo.png"
+              src="/images/amazon-logo.png"
               alt="amazon-logo"
               width={'50px'}
             />
             <img
-              src="../../public/images/flipkart-logo.jpg"
+              src="/images/flipkart-logo.jpg"
               alt="amazon-logo"
               width={'50px'}
             />
@@ -43,11 +43,7 @@ function HeroSection() {
       </div>
       <div className="w-1/2 ">
         <figure className="">
-          <img
-            src="../../public/images/nike-shoe.jpg"
-            width={'80%'}
-            alt="nike-shoe"
-          />
+          <img src="/images/nike-shoe.jpg" width={'80%'} alt="nike-shoe" />
         </figure>
       </div>
     </div>
